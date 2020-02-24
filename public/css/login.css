@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body,
+html,
+.contain {
+  height: 100%; }
+
+.contain {
+  height: 100%;
+  background-image: url(https://img.sharetv.com/shows/standard/the_good_doctor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.display {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.form-con {
+  min-width: 400px;
+  min-height: 400px;
+  background: #ded7e6;
+  flex-direction: column;
+  border-radius: 10px; }
+
+.form-con:hover {
+  background: #c4b8d2; }
+
+.item {
+  padding: 8px; }
+
+input {
+  min-width: 200px;
+  height: 20px; }
+
+.padding-right {
+  padding-right: 50px;
+  min-width: 90px; }
+
+.submit {
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8db98d;
+  width: 150px;
+  font-size: 20px;
+  height: 40px; }
+
+.submit:hover {
+  background: #6da66d; }
+
+/*# sourceMappingURL=login.css.map */
